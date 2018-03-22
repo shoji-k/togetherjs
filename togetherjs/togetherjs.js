@@ -611,7 +611,8 @@
     // The language to present the tool in, such as "en-US" or "ru-RU"
     // Note this must be set as TogetherJSConfig_lang, as it effects the loader
     // and must be set as soon as this file is included
-    lang: null
+    lang: null,
+    noAutoStart: false,
   };
   // FIXME: there's a point at which configuration can't be updated
   // (e.g., hubBase after the TogetherJS has loaded).  We should keep
