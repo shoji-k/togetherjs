@@ -36,7 +36,7 @@ define(["require", "jquery", "util", "session", "ui", "peers", "storage", "windo
     mediaConstraints.mandatory.MozDontOfferDataChannel = true;
   }
 
-  var URL = window.webkitURL || window.URL;
+  var URL = window.URL;
   var RTCSessionDescription = window.mozRTCSessionDescription || window.webkitRTCSessionDescription || window.RTCSessionDescription;
   var RTCIceCandidate = window.mozRTCIceCandidate || window.webkitRTCIceCandidate || window.RTCIceCandidate;
 
