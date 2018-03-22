@@ -74,7 +74,9 @@
     ignoreForms: [":password"],
     // When undefined, attempts to use the browser's language
     lang: undefined,
-    fallbackLang: "en-US"
+    fallbackLang: "en-US",
+    // When true, the sharing link will be disabled
+    disableShare: false,
   };
 
   var styleSheet = "/togetherjs/togetherjs.css";
