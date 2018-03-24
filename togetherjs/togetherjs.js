@@ -422,7 +422,7 @@
     baseUrl: baseUrl + "/togetherjs",
     urlArgs: "bust=" + cacheBust,
     paths: {
-      jquery: "libs/jquery-1.11.1.min",
+      jquery: "libs/jquery-1.11.1.min-customized",
       walkabout: "libs/walkabout/walkabout",
       esprima: "libs/walkabout/lib/esprima",
       falafel: "libs/walkabout/lib/falafel",
