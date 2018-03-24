@@ -77,6 +77,7 @@
     fallbackLang: "en-US",
     // When true, the sharing link will be disabled
     disableShare: false,
+    noAutoStart: false,
   };
 
   var styleSheet = "/togetherjs/togetherjs.css";
